@@ -1,0 +1,60 @@
+@font-face
+{
+	font-family: Aileron Black;
+	src: url('fonts/Aileron-Black.otf');
+}
+@font-face
+{
+	font-family: Aileron Regular;
+	src: url('fonts/Aileron-Regular.otf');
+}
+
+.heading
+{
+	text-align: center;
+	font-family: Aileron Black, Arial, sans-serif;
+	color: #112a47;
+	margin-top: 4em;
+	margin-bottom: 2em;
+}
+
+.wrapper
+{
+	display: grid;
+	grid-template-columns: repeat(5, 1fr);
+	grid-gap: 1em;
+	margin-left: 12em;
+	margin-right: 12em;
+	font-family: Aileron Regular, Arial, sans-serif;
+}
+
+.box
+{
+	text-align: center;
+	vertical-align: middle;
+}
+
+.category
+{
+	min-height: 2em;
+	line-height: 2em;
+	background-color: #00C468;
+	color: #ffffff;
+	font-family: Aileron Black, Arial, sans-serif;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.question
+{
+	min-height: 6em;
+	line-height: 6em;
+	background-color: #e6f2f7;
+	color: #112a47;
+}
+
+.question:hover
+{
+	background-color: #2f81c3;
+	color: #ffffff;
+}
